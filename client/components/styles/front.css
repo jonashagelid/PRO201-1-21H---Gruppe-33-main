@@ -1,0 +1,31 @@
+button{
+    border-radius: 20px;
+}
+
+.start-button:active{
+    transform: scale(0.95);
+    /*box-shadow: 0 0 15px #000080FF;*/
+}
+
+.info-btn:active{
+    transform: scale(0.95);
+    /*box-shadow: 0 0 15px #000080FF;*/
+}
+.achievement-btn:active{
+    transform: scale(0.95);
+    /*box-shadow: 0 0 15px #000080FF;*/
+}
+.achievement-btn{
+    margin:5px auto;
+    display:block;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #FFD457FF;
+    text-decoration: none;
+    border: none;
+}
+.achievement-btn:hover {
+     color: white;
+}

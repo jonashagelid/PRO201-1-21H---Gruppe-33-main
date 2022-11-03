@@ -1,0 +1,51 @@
+.sagblad-grid {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.sagblad-header-div {
+    height: 150px;
+}
+
+.sagblad-header {
+    color: black;
+    grid-area: header;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    font-size: 50px;
+}
+
+.sagblad-textbox1 {
+    background-color: #67B346;
+    font-size: 200%;
+    padding: 15px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-radius: 5px;
+
+}
+
+.sagblad-textbox2 {
+    background-color: #67B346;
+    font-size: 200%;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 5px;
+
+}
+
+.sagblad-image-div {
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.sagblad-image {
+    height: 310px;
+    width: 711px;
+}

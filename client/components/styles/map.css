@@ -1,0 +1,146 @@
+.map-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10%;
+    justify-items: center;
+}
+
+.map-div {
+    margin: auto;
+    height: 700px;
+}
+
+.map-item {
+    position: relative;
+}
+
+.mapphoto {
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+}
+
+.damm {
+    position: absolute;
+    height: 100px;
+    margin-top: 42%;
+    margin-left: 11%;
+}
+
+.kvernstein {
+    position: absolute;
+    height: 100px;
+    margin-left: 60%;
+    margin-top: 6%;
+}
+
+.gardskvern {
+    position: absolute;
+    height: 100px;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.sagblad {
+    position: absolute;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 32%;
+}
+
+.kvernhus {
+    position: absolute;
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+.sager {
+    position: absolute;
+    height: 100px;
+    margin-left: 70%;
+    margin-top: 15%;
+}
+
+.map-home-btn {
+    height: 75px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #FFD457FF;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.map-quiz-btn {
+    height: 75px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #000080FF;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+.map-info-btn {
+    height: 75px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #000080FF;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+.map-info-btn:active{
+    transform: scale(0.95);
+    /*box-shadow: 0 0 15px #000080FF;*/
+}
+.map-quiz-btn:active{
+    transform: scale(0.95);
+    /*box-shadow: 0 0 15px #000080FF;*/
+}
+.map-home-btn:active{
+    transform: scale(0.95);
+    /*box-shadow: 0 0 15px #000080FF;*/
+}
+
+.damm:active{
+    transform: scale(1.1);
+}
+.gardskvern:active{
+    transform: scale(1.1);
+}
+.sagblad:active{
+    transform: scale(1.1);
+}
+.kvernhus:active{
+    transform: scale(1.1);
+}
+.kvernstein:active{
+    transform: scale(1.1);
+}
+.sager:active{
+    transform: scale(1.1);
+}
+
+.damm:hover{
+    transform: scale(1.1);
+}
+.gardskvern:hover{
+    transform: scale(1.1);
+}
+.sagblad:hover{
+    transform: scale(1.1);
+}
+.kvernhus:hover{
+    transform: scale(1.1);
+}
+.kvernstein:hover{
+    transform: scale(1.1);
+}
+.sager:hover{
+    transform: scale(1.1);
+}

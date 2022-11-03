@@ -1,0 +1,42 @@
+{
+  "name": "pro201-1-21h---gruppe-33",
+  "version": "1.0.0",
+  "description": "Prototype : https://www.figma.com/file/hHwB0mpeH3yClF8QL1OFU4/Tablet-L%C3%B8sning?node-id=46%3A239",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently npm:dev:client npm:dev:server",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "start": "cd server && npm start",
+    "postinstall": "npm run install:client && npm run install:server",
+    "install:client": "cd client && npm install --include=dev",
+    "install:server": "cd server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanderwennesland/PRO201-1-21H---Gruppe-33.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanderwennesland/PRO201-1-21H---Gruppe-33/issues"
+  },
+  "homepage": "https://github.com/sanderwennesland/PRO201-1-21H---Gruppe-33#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "@fontsource/source-code-pro": "^4.5.9",
+    "parcel": "^2.5.0"
+  }
+}

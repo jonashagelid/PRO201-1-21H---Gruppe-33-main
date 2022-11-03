@@ -1,0 +1,46 @@
+body {
+    background-color: #5EC8E5FF;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Velkommen-div {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    height: 100px;
+    background-color: #67B346FF;
+    color: #FFD457FF;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.h1-start {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.start-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #FFD457FF;
+    text-decoration: none;
+    border: none;
+}
+
+.first-div {
+    margin-top: 10%;
+}

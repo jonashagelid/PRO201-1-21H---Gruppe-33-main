@@ -1,0 +1,46 @@
+.gardskvern-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.gardskvern-header-div {
+    height: 150px;
+}
+
+.gardskvern-header {
+    color: black;
+    grid-area: header;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    font-size: 50px;
+}
+
+.gardskvern-textbox1 {
+    background-color: #67B346;
+    font-size: 200%;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 5px;
+
+}
+
+.gardskvern-textbox2 {
+    background-color: #67B346;
+    font-size: 200%;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-radius: 5px;
+
+}
+
+.gardskvern-image {
+    height: 320px;
+    width: 500px;
+}

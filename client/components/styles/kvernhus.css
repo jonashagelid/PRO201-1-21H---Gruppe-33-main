@@ -1,0 +1,42 @@
+.kvernsHusContainer {
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.gridKvernHus {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-left: 13px;
+    margin-top: 15%;
+}
+
+.kvernHusOverskrift {
+    color: black;
+    grid-area: header;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    font-size: 50px;
+}
+
+.kvernHusTekst {
+    background-color: #67B346;
+    font-size: 200%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.kvernHusTekstTo {
+    background-color: #67B346;
+    font-size: 200%;
+    padding: 15px;
+}
+
+.kvernhusImg {
+    height: 400px;
+}

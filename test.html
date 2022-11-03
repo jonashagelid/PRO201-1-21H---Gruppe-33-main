@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>Map test</title>
+<style type="text/css">
+	html, body { height: 100%; margin: 0; padding: 0; }
+	#map { width: 1660px; height: 1000px; }
+</style>
+<link rel="stylesheet" href="js/leaflet/leaflet.css" type="text/css"/>
+<script type="text/javascript" src="js/leaflet/leaflet.js"></script>
+</head>
+<body>
+	<div id="map"></div>
+	<script type="text/javascript">
+		var map = L.map('map', {
+			crs: L.CRS.Simple,
+			center: [500, 880],
+			minZoom: 0,
+			maxZoom: 2,
+			zoom: 0
+		});
+		var bounds = [[0,0], [1000,1660]];
+		var image = L.imageOverlay('img/fantasy_map.jpg', bounds).addTo(map);
+		map.setMaxBounds(bounds);
+		map.on('drag', function() {
+			map.panInsideBounds(bounds, { animate: false });
+		});
+	</script>
+</body>
+</html>

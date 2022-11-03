@@ -1,0 +1,102 @@
+.overskrift-info {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+.info-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #FFD457FF;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+}
+.info-home:active{
+    transform: scale(0.95);
+    /*box-shadow: 0 0 15px #000080FF;*/
+}
+
+.info-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #000080FF;
+    text-decoration: none;
+    border: none;
+    margin-top: 1%;
+    color: white;
+}
+
+/*
+.info-kvernstein-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #000080FF;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1%;
+    color: white;
+}
+.info-gardskvern-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #000080FF;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1%;
+    color: white;
+}
+.info-sagblad-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #000080FF;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1%;
+    color: white;
+}
+.info-sager-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #000080FF;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1%;
+    color: white;
+}
+*/
